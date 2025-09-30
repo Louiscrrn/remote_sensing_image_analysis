@@ -1,4 +1,4 @@
-# 🗂️ Remote Sensing & Multi-Modal Segmentation Labs  
+# 🗂️ Remote Sensing & Image Analysis Labs  
 
 This repository contains **two lab sessions** completed during the 3rd year of the **SICOM EEH** program at **Grenoble INP – Phelma**.  
 Both projects explore advanced topics in **Computer Vision** and **Remote Sensing**.  
