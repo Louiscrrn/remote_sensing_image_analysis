@@ -1,17 +1,16 @@
-# 🗂️ Remote Sensing & Image Analysis Labs  
+# Remote Sensing & Image Analysis   
 
-This repository contains **two lab sessions** completed during the 3rd year of the **SICOM EEH** program at **Grenoble INP – Phelma**.  
-Both projects explore advanced topics in **Computer Vision** and **Remote Sensing**.  
+This repository contains **lab sessions** in **Computer Vision** and **Remote Sensing**.  
 
 - **Lab 1 — Land Cover Classification from Hyperspectral Data**: pixel-wise classification of urban land cover types using spectral and spatial features. 
 - **Lab 2 — Multi-Modal Segmentation & Recomposition (YOLO)**: object detection and instance segmentation on visible and infrared images, with creative recomposition tasks.  
 
-## 🛰️ Land Cover Classification from Hyperspectral Data  
+## Land Cover Classification from Hyperspectral Data  
 
-### 🎯 Objective  
+### Objective  
 Perform pixel-wise **land cover classification** on a hyperspectral image of Washington DC Mall, using spectral and spatial information to distinguish between classes (roof, road, grass, trees, water, shadow).  
 
-### 🛠️ Skills Developed  
+### Skills Developed  
 - **Remote Sensing & Hyperspectral Imaging**: preprocessing, visualization, and spectral analysis.  
 - **Exploratory Data Analysis**: histograms, correlation analysis, variance inspection.  
 - **Dimensionality Reduction**: Principal Component Analysis (PCA) for feature extraction.  
@@ -24,12 +23,12 @@ Perform pixel-wise **land cover classification** on a hyperspectral image of Was
 - Combining spectral and spatial features with EMP led to **near-perfect classification**, with clear improvements in separating vegetation, buildings, and water.  
 
 
-## 🚦 Multi-Modal Segmentation & Recomposition (YOLO)
+## Multi-Modal Segmentation & Recomposition (YOLO)
 
-### 🎯 Objective
+### Objective
 Build an end-to-end pipeline that detects and segments people, bicycles/motorcycles, vehicles, and traffic lights from **visible + infrared** images, then **recomposes** instances onto new backgrounds (Mars, Parking, Moon) with simple fusion and perspective effects.
 
-### 🛠️ Skills Developed
+### Skills Developed
 - **Instance Segmentation (YOLO11-seg)**: object masks, boxes, class filtering, confidence thresholds.  
 - **Multi-modal Fusion**: RGB↔︎LAB conversions, grayscale IR coloring, channel-wise blending.  
 - **Image Composition**: mask extraction, contour ops, background overlay, transparency handling.  
