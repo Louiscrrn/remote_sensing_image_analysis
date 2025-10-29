@@ -17,7 +17,7 @@ Perform pixel-wise **land cover classification** on a hyperspectral image of Was
 - **Supervised Learning**: Support Vector Machine (SVM) classifier applied on spectral and spatial features.  
 - **Spatial-Spectral Features**: Extended Morphological Profiles (EMP) for improved classification accuracy.  
 
-### 📊 Results  
+### Results  
 - Identified the most informative spectral bands for classification.  
 - Achieved solid results with SVM on selected bands (~80–85% accuracy).  
 - Combining spectral and spatial features with EMP led to **near-perfect classification**, with clear improvements in separating vegetation, buildings, and water.  
@@ -35,7 +35,7 @@ Build an end-to-end pipeline that detects and segments people, bicycles/motorcyc
 - **Geometric Transforms**: scaling by depth bands, affine warps, placement via centers/boxes.  
 - **Utility Engineering**: batching, visualization, saving outputs, reusable helpers.
 
-### 📊 Results
+### Results
 - Robust extraction of target classes across both modalities with YOLO11-seg.  
 - Two simple fusion methods (RGB/IR averaging & LAB-L channel fusion) yielding cleaner inputs.  
 - Realistic recompositions:  
